@@ -1,0 +1,31 @@
+@chatset "UFT-8";
+
+* { /* TAG para selecionar toda a pagina*/
+    font-family: 'Times New Roman', Times, serif;
+   /* height:100%;*/ 
+}
+body {
+    background-image: linear-gradient(to right,#B4BEC9, #DEEFE7, #FFFFFF);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;/*destina-se a definir bordas arredondadas*/
+    box-shadow: 5px 5px 15px #011d2a; /* Para criar borda degrade em voltar da caixa */
+    width: 600px; /* determina a largura da área de conteúdo de um elemento */
+    padding: 10px; /* é responsável por definir uma distância interna entre um elemento e sua borda. */
+    margin: auto; /* Margem automatica conforme mexe na tela */
+}
+
+h1 {
+    color: #002333;
+    text-align: center; /*Texto fica centralizado*/
+    text-shadow: 1px 1px 2px #001d2b;
+}
+
+h2 {
+    color: #159A9C;
+}
+p {
+    text-align: justify;
+}

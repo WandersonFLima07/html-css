@@ -1,0 +1,131 @@
+Anotações curso  em Video HTML 5 e CSS 3
+
+Para colocar uma TAG em uma frase toda.
+
+Selecione todo a frase aperto CTRL+SHIFT+P - emmet envolep - Enter e digite a TAG
+
+podemos mudar a fonte do titulo h1 e h2 juntos ex:
+
+sytles
+h1,h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+FONTE MEDIDAS
+
+Temos medidas absolutas 
+cm,mm,in,pt,pc
+
+Medidas relativas
+
+em ex, rem, vu, vh,%
+
+16 px geralmente é = 1em
+
+recomentado usar px e EM
+
+font-weight - colocar em negrito
+font-style - colocar em italico 
+text-decoration: underline; - colocar sublinhado
+
+simplificar usando shothand
+
+font: italic holder 3em Arial, Helvetica, sans-serif;
+
+
+fazendo classes 
+
+ Em HTML é id = em CSS é #
+  Em HTML é class = em css .
+: - Pseudo classe
+
+: e o hover serve para quando passaro mouse em cima conforme o codigo que será citado
+
+AULA IMPORTANTE HTML E CSS
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p { /* para esconder algum paragrafo*/
+            display: none;
+        }
+        div:hover > p { /* Para quando for passar o mouse apareça o texto escondido*/
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido ....</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>
+
+
+  a:visited { /*Link já visitado*/
+
+
+	# = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = clildren
+
+Box - level tag (que pega a pagina toda)
+
+div
+h1  a h6
+p
+main
+header
+nav
+article
+aside
+footer
+form
+video
+
+inline-level tags (que não pega a pagina toda do site)
+
+span
+a
+code
+small
+strong
+em
+sup - sub
+label
+button
+input
+select
+
+user agent - é o proprio navegador já coloca as configurações
+
+margin: auto; - para centralizar na pagina 
+ou text-align - center;
+
+ outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+serve para criar uma margem tracejadas
+
+
